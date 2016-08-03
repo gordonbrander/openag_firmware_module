@@ -1,2 +1,4 @@
-# openag_peripheral
-Superclass for arduino peripheral (sensor/actuator) modules
+openag\_module
+==============
+
+Superclass for OpenAg firmware modules

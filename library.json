@@ -1,11 +1,16 @@
 {
-  "name": "openag_peripheral",
-  "keywords": "openag, peripheral",
-  "description": "Superclass for OpenAg peripherals (sensors & actuators)",
+  "name": "openag_module",
+  "keywords": "openag, module",
+  "description": "Superclass for OpenAg firmware modules",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenAgInitiative/openag_peripheral.git"
+    "url": "https://github.com/OpenAgInitiative/openag_module.git"
   },
   "frameworks": "arduino",
-  "platforms": "*"
+  "platforms": "*",
+  "dependencies": [
+    {
+      "name": "rosserial_arduino"
+    }
+  ]
 }
