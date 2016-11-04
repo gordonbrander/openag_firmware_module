@@ -10,6 +10,7 @@
 static const uint8_t OK = 0;
 static const uint8_t WARN = 1;
 static const uint8_t ERROR = 2;
+static const uint8_t CODE_OK = 0;
 
 class Module {
   public:
@@ -19,7 +20,7 @@ class Module {
     virtual void update() = 0;
 
     uint8_t status_level;
-    String status_msg;
+    uint8_t status_code;
 };
 
 #endif
